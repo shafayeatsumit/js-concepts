@@ -51,4 +51,13 @@ consoel.log(x) //undefined
 var x;
 console.log(x)//ref error
 let x;
-```			
+```		
+
+#### main takeaway
+
+> var is function scoped \
+> let is block scoped \
+> const can not be reassigned 
+
+#### resources
+[tyler blog post](https://tylermcginnis.com/var-let-const/)
