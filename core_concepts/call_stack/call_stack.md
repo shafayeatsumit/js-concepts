@@ -1,4 +1,4 @@
-## In this avobe example
+## In this example
 
 ![image](call_stack_1.png)
 
@@ -17,3 +17,6 @@ see what happens in the code
 + a() will invoke function a
 + new execution context created and put on the stack on top of Global 
 + b() invoked another execution context for b gets created an put on top of a context.
+
+**so what is call stack?**
+> every function creates it's own execution context and they are stacked on top of each other. Whichever is in the top is currently running
