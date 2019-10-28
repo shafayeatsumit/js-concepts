@@ -3,7 +3,8 @@
 
 **copying an object creates an alias** both of the object points the same spot of memory. 
 
-
+![by_val](by_val_ref_1)
+![by_ref](by_val_ref_2)
 ```js
 //by value (primitives)
 var a = 3;

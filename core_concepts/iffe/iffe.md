@@ -24,6 +24,7 @@ function (name){
 
 **why iffe is powerful**
 + it doesn't interfere with any other part of the code
++ this pattern makes it difficult to crash with the GLOBAL object.
 ![iffe_1](iffe_1.png)
 ![iffe_1](iffe_2.png)
 ```js
