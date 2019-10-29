@@ -39,3 +39,18 @@ How does sayHi knows about whattosay variable it should be gone by then.???? isn
 
 ![image](closures_4.png)
 
+**closures & callbacks**
+
++ set timeout taking a function object(function expression), time.
++ sayHiLater is done executing.
++ so this callback function is taking advantage of closures.
+
+```js
+function sayHiLater () {
+  var greeting = 'Hi';
+  setTimeout(function(){
+  	console.log(greeting);
+  },300)
+}
+sayHiLater()
+```
