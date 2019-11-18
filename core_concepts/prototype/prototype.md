@@ -8,7 +8,7 @@
 * all objects has a prototype property which is another object (proto { })
 * objects can share same prototype
 
-![prototype] (proto_1.png)
+![prototype](proto_1.png)
 ```
 var person = {
   firstName: 'Default',
